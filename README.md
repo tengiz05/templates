@@ -1,2 +1,2 @@
 # templates
-c++ CP template
+C++ template for Competetive Programming
