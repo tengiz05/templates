@@ -9,8 +9,8 @@ using namespace std;
 #define ss second
 #define PI acos(-1)
 #define ld long double
-template <class T> bool ckmin(T& a, const T& b) {return a > b ? a = b, true : false;}
-template <class T> bool ckmax(T& a, const T& b) {return a < b ? a = b, true : false;}
+template<class T> bool ckmin(T& a, const T& b) {return a>b? a=b, true:false;}
+template<class T> bool ckmax(T& a, const T& b) {return a<b? a=b, true:false;}
 const int mod = 1e9+7, N = 2e5+5;
 int msb(int val){return sizeof(int)*8-__builtin_clzll(val)-1;}
 int a[N], n, m, k;
@@ -34,6 +34,7 @@ signed main(){
 #endif
 	return 0;
 }
+
 
 
 
