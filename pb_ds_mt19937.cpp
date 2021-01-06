@@ -8,3 +8,5 @@ template<class T> using ordered_set = tree<T, null_type, less_equal<T>, rb_tree_
 
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+//example of use
+int t = uniform_int_distribution<int>(0,1000000000)(rng);
