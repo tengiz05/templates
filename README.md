@@ -1,7 +1,7 @@
 # templates
 C++ template for Competetive Programming
 
-temporary things:
+temporary things:\n
 https://codeforces.com/contest/722/problem/D
 https://codeforces.com/contest/498/problem/C
 https://codeforces.com/blog/entry/60114
