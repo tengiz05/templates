@@ -6,7 +6,7 @@ struct bipartiteMatching {
     std::vector<int> match;
     std::vector<bool> used;
     bipartiteMatching(int n) : n(n), e(n), match(n), used(n) {}
-    void add_edge(int u, int v) {
+    void addEdge(int u, int v) {
         e[u].push_back(v);
         e[v].push_back(u);
     }
@@ -25,10 +25,10 @@ struct bipartiteMatching {
     int count() {
         int ans = 0;
         bool flag = true;
-        std::fill(match.begin(), match.end(), -1);
+        match.assign(n, -1);
         while (flag) {
             flag = false;
-            std::fill(used.begin(), used.end(), false);
+            used.assign(n, false);
             for (int v = 0; v < n; v++) {
                 if (match[v] == -1 && dfs(v)) {
                     ans++;
@@ -48,7 +48,7 @@ int main() {
     for (int i = 0; i < M; i++) {
         int u, v;
         std::cin >> u >> v;
-        P.add_edge(u, L + v);
+        P.addEdge(u, L + v);
     }
     std::cout << P.count() << "\n";
     for(int i = 0; i < L; i++){
