@@ -5,7 +5,7 @@ struct bipartiteMatching {
     std::vector<std::vector<int>> e;
     std::vector<int> match;
     std::vector<bool> used;
-    bipartiteMatching(int n) : n(n), e(n), match(n), used(n) {}
+    bipartiteMatching(int n) : n(n), e(n) {}
     void addEdge(int u, int v) {
         e[u].push_back(v);
         e[v].push_back(u);
