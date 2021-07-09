@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>  
 struct BipartiteGraph {
     static constexpr int INF = 1e9;
     int n, m;
@@ -55,3 +56,22 @@ struct BipartiteGraph {
         return ans;
     }
 };
+int main() {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    int l, r, m;
+    std::cin >> l >> r >> m;
+    BipartiteGraph g(l, r);
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        std::cin >> u >> v;
+        g.addEdge(u, v);
+    }
+    std::cout << g.count() << "\n";
+    for (int i = 1; i <= l; i++) {
+        if (g.match[i] != 0) {
+            std::cout << i - 1 << " " << g.match[i] - l - 1 << "\n";
+        }
+    }
+    return 0;
+}
