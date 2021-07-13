@@ -1,12 +1,9 @@
 #include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
-using namespace __gnu_pbds;
-using namespace std;
-template<class T> using ordered_set = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update> ;
-//order_of_key(x) = position of element x;
-//find_by_order(i) = a[i];
+template<typename T>
+using Set = __gnu_pbds::tree<T, __gnu_pbds::null_type, std::less<T>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ;
 
 
-mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
 //example of use
-int t = uniform_int_distribution<int>(0,1000000000)(rng);
+int t = std::uniform_int_distribution<int>(0,1000000000)(rng);
+int x = rng() % 100;
