@@ -1,4 +1,4 @@
-# templates
+# Templates and snippets
 C++ template for Competetive Programming
 
 # temporary things:
