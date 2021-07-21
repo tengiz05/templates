@@ -1,7 +1,17 @@
 # templates
 C++ template for Competetive Programming
 
-temporary things:
+# temporary things:
+
+# If you will not solve these, you are... idk
+ - https://codeforces.com/problemset/problem/1455/E
+ - https://codeforces.com/problemset/problem/1473/F
+ - https://codeforces.com/problemset/problem/1517/G
+
+(warning: flow stuff needed to solve them!!)
+
+
+# Flow stuff (you do not need these, you know) :
 
 https://codeforces.com/contest/722/problem/D
 
