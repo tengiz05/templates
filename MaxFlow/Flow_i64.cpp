@@ -48,7 +48,7 @@ struct Flow {
         }
         return f - r;
     }
-    void addEdge(int u, int v, int c) {
+    void addEdge(int u, int v, i64 c) {
         g[u].push_back(e.size());
         e.emplace_back(v, c);
         g[v].push_back(e.size());
