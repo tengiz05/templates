@@ -8,7 +8,7 @@ C++ templates and snippets for Competetive Programming (sorry, mostly stolen)
  - https://codeforces.com/problemset/problem/1473/F
  - https://codeforces.com/problemset/problem/1517/G
 
-(warning: flow stuff needed to solve them!!)
+(warning: flow stuff might be needed to solve them!!)
 
 
 # Flow stuff (you do not need these, you know) :
