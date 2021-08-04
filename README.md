@@ -1,5 +1,5 @@
 # Templates and snippets
-C++ templates and snippets for Competetive Programming
+C++ templates and snippets for Competetive Programming (sorry, mostly stolen)
 
 # temporary things:
 
