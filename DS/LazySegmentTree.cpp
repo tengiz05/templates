@@ -31,9 +31,9 @@ struct LazySegmentTree {
         apply(2 * p + 1, tag[p]);
         tag[p] = Tag();
     }
-    void modify(int p, int l, int r, Info x) {
+    void modify(int p, int l, int r, int x, Info v) {
         if (r - l == 1) {
-            info[p] = x;
+            info[p] = v;
             return;
         }
         int m = (l + r) / 2;
@@ -45,8 +45,8 @@ struct LazySegmentTree {
         }
         pull(p);
     }
-    void modify(int p) {
-        modify(1, 0, n, p);
+    void modify(int x, Info v) {
+        modify(1, 0, n, x, v);
     }
     Info rangeQuery(int p, int l, int r, int x, int y) {
         if (l >= y || r <= x) {
