@@ -31,14 +31,9 @@ struct LazySegmentTree {
         apply(2 * p + 1, tag[p]);
         tag[p] = Tag();
     }
-    void modify(int p, int l, int r, int x) {
+    void modify(int p, int l, int r, Info x) {
         if (r - l == 1) {
-            info[p].cnt = 1;
-            if ((x + tag[p]) % 2 == 0) {
-                info[p].x[1][0] += 1E9 + x;
-            } else {
-                info[p].x[1][1] += 1E9 + x;
-            }
+            info[p] = x;
             return;
         }
         int m = (l + r) / 2;
