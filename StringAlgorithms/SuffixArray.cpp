@@ -1,3 +1,4 @@
+constexpr int alphabet = 256;
 std::vector<int> sort_cyclic_shifts(const std::string &s) {
     int n = s.length();
     std::vector<int> p(n), c(n), cnt(std::max(n, alphabet), 0);
