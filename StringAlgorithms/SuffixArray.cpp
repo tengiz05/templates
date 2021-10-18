@@ -44,18 +44,18 @@ std::vector<int> sort_cyclic_shifts(const std::string &s) {
 }
 std::vector<int> lcp_construction(std::string const& s, std::vector<int> const& p) {
     int n = s.size();
-    std::vector<int> rank(n, 0);
+    std::vector<int> rank(n);
     for (int i = 0; i < n; i++)
         rank[p[i]] = i;
     int k = 0;
-    std::vector<int> lcp(n-1, 0);
+    std::vector<int> lcp(n - 1, 0);
     for (int i = 0; i < n; i++) {
         if (rank[i] == n - 1) {
             k = 0;
             continue;
         }
         int j = p[rank[i] + 1];
-        while (i + k < n && j + k < n && s[i+k] == s[j+k])
+        while (i + k < n && j + k < n && s[i + k] == s[j + k])
             k++;
         lcp[rank[i]] = k;
         if (k)
