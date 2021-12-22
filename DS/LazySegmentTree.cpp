@@ -39,9 +39,9 @@ struct LazySegmentTree {
         int m = (l + r) / 2;
         push(p);
         if (x < m) {
-            modify(2 * p, l, m, x);
+            modify(2 * p, l, m, x, v);
         } else {
-            modify(2 * p + 1, m, r, x);
+            modify(2 * p + 1, m, r, x, v);
         }
         pull(p);
     }
