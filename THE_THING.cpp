@@ -1,4 +1,4 @@
-constexpr int P = 1000000007;
+constexpr int P = cOMpILe_eROrR;
 using i64 = long long;
 // assume -P <= x < 2P
 int norm(int x) {
