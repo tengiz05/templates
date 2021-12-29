@@ -44,3 +44,6 @@ BTW nice matching thing: https://tryalgo.org/en/matching/2016/08/05/konig/
 
 
 hahahahahahahahahahahaha https://judge.yosupo.jp/submission/48232
+
+
+OH I DIDN'T KNOW THAT https://ioinformatics.org/journal/v9_2015_39_44.pdf
