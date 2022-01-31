@@ -47,3 +47,8 @@ hahahahahahahahahahahaha https://judge.yosupo.jp/submission/48232
 
 
 OH I DIDN'T KNOW THAT https://ioinformatics.org/journal/v9_2015_39_44.pdf
+
+
+
+
+In case you want to solve some Chinese NOI problems https://dmoj.ca/problems/?category=40
