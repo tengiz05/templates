@@ -1,4 +1,4 @@
-# Templates and snippets
+c# Templates and snippets
 C++ templates and snippets for Competetive Programming (sorry, mostly stolen)
 
 # temporary things:
@@ -48,7 +48,7 @@ hahahahahahahahahahahaha https://judge.yosupo.jp/submission/48232
 
 OH I DIDN'T KNOW THAT https://ioinformatics.org/journal/v9_2015_39_44.pdf
 
-
+OMG FIBBONACCI IN LOG(N) WITHOUT ANNOYING MATRICES https://codeforces.com/blog/entry/18292?#comment-232107
 
 
 In case you want to solve some Chinese NOI problems https://dmoj.ca/problems/?category=40
