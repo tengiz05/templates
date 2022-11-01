@@ -23,6 +23,7 @@ T power(T a, int b) {
 struct Z {
     int x;
     Z(int x = 0) : x(norm(x)) {}
+    Z(i64 x) : x(norm(x % P)) {}
     int val() const {
         return x;
     }
