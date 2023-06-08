@@ -1,5 +1,5 @@
 c# Templates and snippets
-C++ templates and snippets for Competetive Programming (sorry, mostly stolen)
+C++ templates and snippets for Competetive Programming (sorry, mostly stolen from jiangly)
 
 # temporary things:
 
