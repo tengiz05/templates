@@ -34,19 +34,16 @@ https://codeforces.com/contest/1424/problem/B
 
 https://codeforces.com/contest/468/problem/B
 
+
+# Some nice things
 Hopcroft-karp algorithm code: http://zobayer.blogspot.com/2010/05/maximum-matching.html
 
-
-A nice matching thing: https://tryalgo.org/en/matching/2016/08/05/konig/
-
-
+A nice matching idea: https://tryalgo.org/en/matching/2016/08/05/konig/
 
 Ultra-fast FFT: https://judge.yosupo.jp/submission/48232
-
 
 Range minimum queries on BIT's: https://ioinformatics.org/journal/v9_2015_39_44.pdf
 
 Fibonacci in log(n) without using matrix multiplication: https://codeforces.com/blog/entry/18292?#comment-232107
 
-
-In case you want to solve some Chinese NOI problems https://dmoj.ca/problems/?category=40
+In case you want to solve some Chinese NOI problems: https://dmoj.ca/problems/?category=40
