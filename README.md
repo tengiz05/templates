@@ -7,7 +7,7 @@ C++ templates and snippets for Competetive Programming
  - https://codeforces.com/problemset/problem/1517/G
  - https://codeforces.com/contest/702/problem/F
 
-(warning: flow stuff might be needed to solve them!!)
+(warning: max-flow knowledge might be needed to solve them!!)
 
 
 # Flow-related problems :
