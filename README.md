@@ -1,5 +1,5 @@
-c# Templates and snippets
-C++ templates and snippets for Competetive Programming (sorry, mostly stolen from jiangly)
+# Templates and snippets
+C++ templates and snippets for Competetive Programming
 
 # To look up
  - https://codeforces.com/problemset/problem/1455/E
